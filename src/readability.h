@@ -24,6 +24,7 @@
 # define xor ^
 # define or ||
 # define is ==
+# define is_not !=
 
 typedef char * str;
 typedef char byte;
