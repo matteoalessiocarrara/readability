@@ -55,5 +55,5 @@ Se la risposta ad entrambe le domande è si, allora si può aggiungere alla libr
 Write programs to work together. Write programs to handle text streams, because
 that is a universal interface.
 
-Aggiornamenti: [GitHub](https://github.com/matteoalessiocarrara/readability)
+Aggiornamenti: [GitHub](https://github.com/matteoalessiocarrara/readability)  
 Email: sw.matteoac@gmail.com
