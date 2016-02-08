@@ -56,13 +56,13 @@ Se la risposta a tutte le domande è si, allora si può aggiungere alla libreria
 Questo repo cerca di portare un po' della bellezza del python nel c.
 Alcune frasi prese da ["The Zen of Python"](https://www.python.org/dev/peps/pep-0020/):
 
-> Beautiful is better than ugly.
-  Explicit is better than implicit.
-  Simple is better than complex.
-  Complex is better than complicated.
-  Flat is better than nested.
-  Sparse is better than dense.
-  Readability counts.
+> Beautiful is better than ugly.  
+  Explicit is better than implicit.  
+  Simple is better than complex.  
+  Complex is better than complicated.  
+  Flat is better than nested.  
+  Sparse is better than dense.  
+  Readability counts.  
 
 ## Altre informazioni ##
 
