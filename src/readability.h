@@ -16,6 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.
  */
+#ifndef _READABILITY_H
+#define _READABILITY_H
 
 # include <stdbool.h>
 
@@ -28,3 +30,5 @@
 
 typedef char * str;
 typedef char byte;
+
+#endif //_READABILITY_H
