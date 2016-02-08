@@ -1,8 +1,8 @@
 # Readability #
 
-Libreria per rendere il c più leggibile
+Header per rendere il c più leggibile
 
-# Esempio #
+## Esempio ##
 
 ```c
 /* Codice normale */
@@ -33,21 +33,36 @@ unsigned byte b = 0b01000101;
 
 ```
 
-# Usare la libreria #
+## Usare l'header ##
 
-La libreria è interamente composta da \#define e typedef, non inserisco quindi una
-spiegazione di ogni elemento perché può essere letta direttamente.
+L'header è interamente composto da \#define e typedef, non inserisco quindi una
+spiegazione di ogni elemento perché può essere letto direttamente.
 
 
-# Cosa può stare in questa libreria #
+## Cosa può stare in questo repo ##
+
+L'obbiettivo è rendere il c il più possibile esplicito e leggibile.
 
 Prima di aggiungere qualcosa, ci si deve chiedere:
 
  * La semplificazione, riguarda una parola chiave o un tipo del c?  
  * È solo un nuovo nome per qualcosa?
+ * La nuova parola è più chiara di quella sostituita?
  
-Se la risposta ad entrambe le domande è si, allora si può aggiungere alla libreria.
+Se la risposta a tutte le domande è si, allora si può aggiungere alla libreria.
 
+## Ispirazione ##
+
+Questo repo cerca di portare un po' della bellezza del python nel c.
+Alcune frasi prese da ["The Zen of Python"](https://www.python.org/dev/peps/pep-0020/):
+
+> Beautiful is better than ugly.  
+  Explicit is better than implicit.  
+  Simple is better than complex.  
+  Complex is better than complicated.  
+  Flat is better than nested.  
+  Sparse is better than dense.  
+  Readability counts.  
 
 ## Altre informazioni ##
 
