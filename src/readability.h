@@ -22,16 +22,28 @@
 
 # include <stdbool.h>
 # include <stdlib.h>
+# include <math.h>
 
 # define and &&
 # define not !
 # define xor ^
 # define or ||
 # define is ==
-# define is_not !=
+# define isnot !=
+# define less <
+# define more >
+# define lessoris <=
+# define moreoris >=
+# define shiftleft <<
+# define shiftright >>
 
+// Standard library functions
 # define strtoint(_str) atoi(_str)
 # define inttostr(_int, _storebuf, _len) itoa(_int, _storebuf, _len)
+# define rad(_int_n) sqrt(_int_n)
+# define power(_int_n,_int_base) pow(_int_n,_int_base)
+# define strcompare(_str1,_str2) strcmp(_str1,_str2)
+# define strcopy(_str1,_str2) stcpy(_str1,_str2)
 
 typedef char * str;
 typedef char byte;
