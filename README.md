@@ -1,11 +1,12 @@
 # Readability #
 
-This header let you able to read C code better, contains type definitons and some macros ( even standard libaries macros).
+This header let you able to read C code better, contains type definitons 
+and some macros (even standard libaries macros).
 
 ## Example ##
 
 ```c
-/* C code without readability*/
+/* C code without readability */
 if ((!func1() && func2()) || func3())
 
 /* w/ readability */
@@ -14,7 +15,7 @@ if ((not func1() and func2()) or func3())
 /* without */
 b = 1 ^ 0;
 
-/* w/ readability*/
+/* w/ readability */
 b = true xor false;
 
 /* without */
@@ -35,16 +36,18 @@ unsigned byte b = 0b01000101;
 
 ## Using the header##
 
-Just include header file in C source code, then you can use new type definitions and macros
+Just include header file in C source code, then you can use new type definitions
+and macros
 
 
 ## Achievement ##
 
 Achievement is to get better visiblity in C source code.
 
+
 ## Inspiration ##
 
-This was inspired from : ["The Zen of Python"](https://www.python.org/dev/peps/pep-0020/):
+This was inspired from: ["The Zen of Python"](https://www.python.org/dev/peps/pep-0020/):
 
 > Beautiful is better than ugly.  
   Explicit is better than implicit.  
@@ -54,26 +57,17 @@ This was inspired from : ["The Zen of Python"](https://www.python.org/dev/peps/p
   Sparse is better than dense.  
   Readability counts.  
 
+
+## License ##
+
+Licensed under GPLv3 this is free software, read about it in file LICENSE
+
+
 ## Other infos ##
 
 > This is the Unix philosophy: Write programs that do one thing and do it well.
-Write programs to work together. Write programs to handle text streams, because
-that is a universal interface.
+  Write programs to work together. Write programs to handle text streams, because
+  that is a universal interface.
 
 Official github repository: [GitHub](https://github.com/matteoalessiocarrara/readability)  
-mailto: sw.matteoac@gmail.com
-
-## How to use ? ##
-
-Clone repo
-
-~~~
-$ git clone https://github.com/matteoalessiocarrara/readability
-~~~
-
-take the header, and place it in ur project directory
-
-
-## LICENSE ##
-
-Licensed under GPLv3 this is free software, read about it in file LICENSE
+Mailto: sw.matteoac@gmail.com
