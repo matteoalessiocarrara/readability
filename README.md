@@ -1,7 +1,8 @@
 # Readability #
 
-This header let you able to read C code better, contains type definitons 
+These headers let you able to read C code better, contains type definitons 
 and some macros (even standard libaries macros).
+
 
 ## Example ##
 
@@ -36,8 +37,14 @@ unsigned byte b = 0b01000101;
 
 ## Using the header##
 
-Just include header file in C source code, then you can use new type definitions
-and macros
+Just include readability.h file in C source code, then you can use new type definitions
+and macros. You can also include only some headers, if others do not interest you.
+
+
+## Standard ##
+
+Headers should work with the c99 standard, and perhaps even with the previous standards, 
+if you're lucky :)
 
 
 ## Achievement ##
