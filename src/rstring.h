@@ -16,20 +16,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.
  */
- 
-# ifndef _READABILITY_H
-# define _READABILITY_H
+
+# include <string.h>
+
+# ifndef _READABILITY_STRING_H
+# define _READABILITY_STRING_H
 
 
-/* Syntax */
-# include <rkeywords.h>
-# include <roperators.h>
-
-/* Standard library headers */
-# include <stdbool.h>
-# include <rstdlib.h>
-# include <rstring.h>
-# include <rmath.h>
+# define strcompare(_str1,_str2) strcmp(_str1,_str2)
+# define strcopy(_str1,_str2) strcpy(_str1,_str2)
 
 
-#endif /* _READABILITY_H */
+# endif /* _READABILITY_STRING_H */

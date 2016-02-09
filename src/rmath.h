@@ -16,20 +16,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.
  */
- 
-# ifndef _READABILITY_H
-# define _READABILITY_H
+
+# include <math.h>
+
+# ifndef _READABILITY_MATH_H
+# define _READABILITY_MATH_H
 
 
-/* Syntax */
-# include <rkeywords.h>
-# include <roperators.h>
-
-/* Standard library headers */
-# include <stdbool.h>
-# include <rstdlib.h>
-# include <rstring.h>
-# include <rmath.h>
+# define rad(_int_n) sqrt(_int_n)
+# define power(_int_n,_int_base) pow(_int_n,_int_base)
 
 
-#endif /* _READABILITY_H */
+# endif /* _READABILITY_MATH_H */

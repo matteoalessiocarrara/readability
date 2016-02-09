@@ -16,20 +16,30 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.
  */
- 
-# ifndef _READABILITY_H
-# define _READABILITY_H
+
+# ifndef _READABILITY_OPERATORS_H
+# define _READABILITY_OPERATORS_H
 
 
-/* Syntax */
-# include <rkeywords.h>
-# include <roperators.h>
+/* Boolean logic */
+# define and &&
+# define not !
+# define or ||
+# define xor ^
 
-/* Standard library headers */
-# include <stdbool.h>
-# include <rstdlib.h>
-# include <rstring.h>
-# include <rmath.h>
+/* Equality testing */
+# define is ==
+# define isnot !=
+
+/* Order relations */
+# define less <
+# define more >
+# define lessoris <=
+# define moreoris >=
+
+/* Bitwise shifts */
+# define shiftleft <<
+# define shiftright >>
 
 
-#endif /* _READABILITY_H */
+# endif /* _READABILITY_OPERATORS_H */

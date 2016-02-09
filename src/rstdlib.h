@@ -17,19 +17,14 @@
  * MA 02110-1301, USA.
  */
  
-# ifndef _READABILITY_H
-# define _READABILITY_H
-
-
-/* Syntax */
-# include <rkeywords.h>
-# include <roperators.h>
-
-/* Standard library headers */
-# include <stdbool.h>
-# include <rstdlib.h>
+# include <stdlib.h>
 # include <rstring.h>
-# include <rmath.h>
+
+# ifndef _READABILITY_STDLIB_H
+# define _READABILITY_STDLIB_H
 
 
-#endif /* _READABILITY_H */
+# define strtoint(_str) atoi(_str)
+
+
+# endif /* _READABILITY_STDLIB_H */
