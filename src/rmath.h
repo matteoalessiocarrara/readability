@@ -23,7 +23,7 @@
 # define _READABILITY_MATH_H
 
 
-# define rad(_int_n) sqrt(_int_n)
+# define squareroot(_int_n) sqrt(_int_n)
 # define power(_int_n,_int_base) pow(_int_n,_int_base)
 
 
