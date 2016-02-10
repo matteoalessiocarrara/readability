@@ -18,13 +18,13 @@
  */
  
 # include <stdlib.h>
-# include <rstring.h>
+# include "r_string.h"
 
-# ifndef _READABILITY_STDLIB_H
-# define _READABILITY_STDLIB_H
-
-
-# define strtoint(_str) atoi(_str)
+# ifndef READABILITY_STDLIB_H
+# define READABILITY_STDLIB_H
 
 
-# endif /* _READABILITY_STDLIB_H */
+# define str_toint(str) atoi(str)
+
+
+# endif /* READABILITY_STDLIB_H */

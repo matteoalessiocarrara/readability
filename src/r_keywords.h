@@ -17,29 +17,12 @@
  * MA 02110-1301, USA.
  */
 
-# ifndef _READABILITY_OPERATORS_H
-# define _READABILITY_OPERATORS_H
+# ifndef READABILITY_KEYWORDS_H
+# define READABILITY_KEYWORDS_H
 
 
-/* Boolean logic */
-# define and &&
-# define not !
-# define or ||
-# define xor ^
-
-/* Equality testing */
-# define is ==
-# define isnot !=
-
-/* Order relations */
-# define less <
-# define more >
-# define lessoris <=
-# define moreoris >=
-
-/* Bitwise shifts */
-# define shiftleft <<
-# define shiftright >>
+typedef char * str;
+typedef char byte;
 
 
-# endif /* _READABILITY_OPERATORS_H */
+# endif /* READABILITY_KEYWORDS_H */

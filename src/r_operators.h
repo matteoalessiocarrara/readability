@@ -17,14 +17,29 @@
  * MA 02110-1301, USA.
  */
 
-# include <math.h>
-
-# ifndef _READABILITY_MATH_H
-# define _READABILITY_MATH_H
+# ifndef READABILITY_OPERATORS_H
+# define READABILITY_OPERATORS_H
 
 
-# define squareroot(_int_n) sqrt(_int_n)
-# define power(_int_n,_int_base) pow(_int_n,_int_base)
+/* Boolean logic */
+# define and &&
+# define not !
+# define or ||
+# define xor ^
+
+/* Equality testing */
+# define is ==
+# define isnot !=
+
+/* Order relations */
+# define less <
+# define more >
+# define lessoris <=
+# define moreoris >=
+
+/* Bitwise shifts */
+# define shiftleft <<
+# define shiftright >>
 
 
-# endif /* _READABILITY_MATH_H */
+# endif /* READABILITY_OPERATORS_H */

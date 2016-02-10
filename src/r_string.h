@@ -19,14 +19,14 @@
 
 # include <string.h>
 
-# ifndef _READABILITY_STRING_H
-# define _READABILITY_STRING_H
+# ifndef READABILITY_STRING_H
+# define READABILITY_STRING_H
 
 
-# define strcompare(_str1,_str2) strcmp(_str1,_str2)
-# define strcopy(_str1,_str2) strcpy(_str1,_str2)
-# define strsearch(const char *haystack, const char *needle) strstr(const char *haystack, const char *needle)
-# define strinterlock(char *dest, const char *src) strcat(char *dest, const char *src)
+# define str_compare(str1, str2) strcmp(str1, str2)
+# define str_copy(src, dest) strcpy(dest, src)
+# define str_append(src, dest) strcat(dest, src)
+# define str_find(needle, haystack) strstr(haystack, needle)
 
 
-# endif /* _READABILITY_STRING_H */
+# endif /* READABILITY_STRING_H */

@@ -17,12 +17,14 @@
  * MA 02110-1301, USA.
  */
 
-# ifndef _READABILITY_KEYWORDS_H
-# define _READABILITY_KEYWORDS_H
+# include <math.h>
+
+# ifndef READABILITY_MATH_H
+# define READABILITY_MATH_H
 
 
-typedef char * str;
-typedef char byte;
+# define squareroot(double_x) sqrt(double_x)
+# define power(double_base, double_exponent) pow(double_base, double_exponent)
 
 
-# endif /* _READABILITY_KEYWORDS_H */
+# endif /* READABILITY_MATH_H */
