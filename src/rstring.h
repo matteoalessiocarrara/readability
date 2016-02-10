@@ -25,6 +25,8 @@
 
 # define strcompare(_str1,_str2) strcmp(_str1,_str2)
 # define strcopy(_str1,_str2) strcpy(_str1,_str2)
+# define strsearch(const char *haystack, const char *needle) strstr(const char *haystack, const char *needle)
+# define strinterlock(char *dest, const char *src) strcat(char *dest, const char *src)
 
 
 # endif /* _READABILITY_STRING_H */
