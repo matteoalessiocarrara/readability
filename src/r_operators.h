@@ -29,7 +29,10 @@
 
 /* Equality testing */
 # define is ==
-# define isnot !=
+# define is_not !=
+
+/* DEPRECATED */
+# define isnot is_not
 
 /* Order relations */
 # define less <

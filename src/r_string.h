@@ -27,6 +27,7 @@
 # define str_copy(src, dest) strcpy(dest, src)
 # define str_append(src, dest) strcat(dest, src)
 # define str_find(needle, haystack) strstr(haystack, needle)
+# define str_len(str) strlen(str)
 
 
 # endif /* READABILITY_STRING_H */

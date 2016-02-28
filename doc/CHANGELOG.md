@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## 2016/02/28 3.1.0 ##
+
+Added
+ - str_len
+ 
+Deprecated
+ - isnot -> is_not
+ 
+
 ## 2016/02/10 3.0.0 ##
 
 Added

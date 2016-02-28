@@ -70,12 +70,6 @@ This was inspired from: ["The Zen of Python"](https://www.python.org/dev/peps/pe
 Licensed under GPLv3 this is free software, read about it in file LICENSE
 
 
-## Branch ##
-
-On the master branch, there is the latest stable version. The development version 
-is on github-next branch.
-
-
 ## Other infos ##
 
 > This is the Unix philosophy: Write programs that do one thing and do it well.
